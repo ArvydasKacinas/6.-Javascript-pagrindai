@@ -1,15 +1,15 @@
-function compare(skaicius1, skaicius2, skaicius3) {
-	if (skaicius3 > skaicius2 && skaicius1 > skaicius3) {
-		return skaicius1 + ' yra didziausias';
-	} else if (skaicius2 > skaicius1 && skaicius2 > skaicius3) {
-		return skaicius2 + ' yra didziausias';
+function compare(skaicius11, skaicius22, skaicius33) {
+	if (skaicius33 > skaicius22 && skaicius11 > skaicius33) {
+		return skaicius11 + ' yra didziausias';
+	} else if (skaicius22 > skaicius1 && skaicius22 > skaicius33) {
+		return skaicius22 + ' yra didziausias';
 	} else {
-		return skaicius3 + ' yra didziausias';
+		return skaicius33 + ' yra didziausias';
 	}
 }
 
-let skaicius1 = 10;
-let skaicius2 = 20;
-let skaicius3 = 30;
-let rezultatas = compare(skaicius1, skaicius2, skaicius3);
-console.log(rezultatas);
+let skaicius11 = 10;
+let skaicius22 = 20;
+let skaicius33 = 30;
+let rezultataslyginti = compare(skaicius11, skaicius22, skaicius33);
+console.log(rezultataslyginti);
