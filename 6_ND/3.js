@@ -1,20 +1,4 @@
-// document.querySelector('#palyginti').addEventListener('click', function(){
-//     console.log('palyginta')
-// });
-
-// let palygintiA = parseFloat(document.querySelector('#input1').value);
-// let palygintiB = parseFloat(document.querySelector('#input2').value);
-
-// if (document.querySelector('#palyginti').addEventListener('click', function compare(palygintiA, palygintiB){
-//     if (palygintiA>palygintiB)
-//       return console.log(palygintiA)
-//     if (palygintiB>palygintiA)
-//       return console.log(palygintiB)
-//     if (palygintiA==palygintiB)
-//       return console.log('skaiciai lygus')
-// }));
-
-let skaiciusA = 10;
+let skaiciusA = 100;
 let skaiciusB = 11;
 
 if(skaiciusA>skaiciusB) {
@@ -26,3 +10,25 @@ if(skaiciusA>skaiciusB) {
       console.log('skaicius B yra didesnis')
   }
 
+document.querySelector('#palyginti').addEventListener('click', function(){
+    console.log('palyginta')
+});
+
+let inputA = parseFloat(document.querySelector('#inputA').value);
+let inputB = parseFloat(document.querySelector('#inputB').value);
+let inputC;
+
+
+document.querySelector('#palyginti').addEventListener('click', function compare(inputA, inputB) {
+    inputA = parseFloat(document.querySelector('#inputA').value);
+    inputB = parseFloat(document.querySelector('#inputB').value);
+    if (inputA>inputB)
+        return console.log(inputA + ' yra didesnis');
+    else if (inputA==inputB) {
+        return console.log('abu skaiciai lygus');
+    } else {
+        return console.log(inputB + ' yra didesnis');
+    }
+});
+
+// document.querySelector('#inputC').innerHTML=

@@ -27,10 +27,10 @@ console.log(`${skaicius2}`);
 console.log(`${skaicius3}`);
 console.log(`${skaicius4}`);
 
-alert(console.log(`${skaicius1}`));
-alert(console.log(`${skaicius2}`));
-alert(console.log(`${skaicius3}`));
-alert(console.log(`${skaicius4}`));
+console.log(`${skaicius1}`);
+console.log(`${skaicius2}`);
+console.log(`${skaicius3}`);
+console.log(`${skaicius4}`);
 
 let maxSkaicius = Number.MAX_VALUE;
 
@@ -46,6 +46,4 @@ skaicius5 = skaicius5 ^ skaicius6;
 console.log(`${skaicius5}`);
 console.log(`${skaicius6}`);
 
-document.querySelector('#rezultatas').innerHTML=skaicius5 + "" + skaicius6;
-
-
+document.querySelector('#rezultatas').innerHTML=skaicius5 + ' ir ' + skaicius6;

@@ -1,0 +1,30 @@
+#rezultatas {
+    border: 1px solid blue;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skaiciuotuvas {
+    border: 1px solid green;
+    margin: 20px;
+    padding: 20px;
+}
+
+#skaiciuotuvas {
+    border: 1px solid lightgreen;
+    margin-inline-end: 90%;
+    padding: 10px;
+}
+
+.palyginimai {
+    border: 1px solid yellow;
+    margin: 20px;
+    padding: 20px;
+}
+
+.tryspalyginti {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 20px;
+}
