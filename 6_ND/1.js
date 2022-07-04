@@ -32,6 +32,8 @@ console.log(`${skaicius2}`);
 console.log(`${skaicius3}`);
 console.log(`${skaicius4}`);
 
+alert(`${skaicius1} ` + `${skaicius2} ` + `${skaicius3} ` + `${skaicius4}`);
+
 let maxSkaicius = Number.MAX_VALUE;
 
 console.log(maxSkaicius);
