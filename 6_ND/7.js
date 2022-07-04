@@ -1,3 +1,5 @@
+"use strict"
+
 let trumpena1 = 1/3;
 let trupmena2 = 4/3;
 

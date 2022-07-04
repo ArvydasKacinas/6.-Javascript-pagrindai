@@ -1,3 +1,5 @@
+"use strict"
+
 function compare(skaicius11, skaicius22, skaicius33) {
 	if (skaicius33 > skaicius22 && skaicius11 > skaicius33) {
 		return skaicius11 + ' yra didziausias';

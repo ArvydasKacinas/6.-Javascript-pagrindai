@@ -1,3 +1,5 @@
+"use strict"
+
 let krastine1 = 10;
 let krastine2 = 10;
 let krastine3 = 11;

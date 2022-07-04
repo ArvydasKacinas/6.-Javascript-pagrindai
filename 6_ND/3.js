@@ -1,3 +1,5 @@
+"use strict"
+
 let skaiciusA = 100;
 let skaiciusB = 11;
 

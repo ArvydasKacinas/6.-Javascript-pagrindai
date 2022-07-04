@@ -1,3 +1,5 @@
+"use strict"
+
 document.querySelector('#sudeti').addEventListener('click', function(){
     console.log('sudeta')
 });
